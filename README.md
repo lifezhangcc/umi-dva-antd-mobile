@@ -19,14 +19,14 @@
     |-- src                                   # 
     |   |-- assets                            # 本地静态资源
     |   |-- components                        # 业务通用组件
-    |   |-- layout                            # 通用布局
+    |   |-- layout                            # 布局组件
     |   |-- models                            # 全局 dva model
-    |   |-- services                          # 后台接口服务
+    |   |-- services                          # 接口服务
     |   |-- pages                             # 业务页面入口和常用模板
-    |   |-- e2e                               # 集成测试用例
+    |   |-- e2e                               # 集成测试用例/ui测试
     |   |-- global.less                       # 全局样式
-    |   |-- global.tsx                         # 全局 JS
-    |   |-- theme.js                          
+    |   |-- global.tsx                        # 全局 JS
+    |   |-- theme.js                          # 自定义主题
     |-- tests                                 # 测试工具
     |-- .gitignore                            # git忽略文件
     |-- .editorconfig                         # 编辑器代码风格配置
@@ -35,8 +35,8 @@
     |-- .prettierignore                       # 代码风格配置忽略文件
     |-- .prettierrc                           # 代码风格配置文件
     |-- .stylelintrc                          # 样式风格配置文件
-    |-- package.json                          
-    |-- README.md                              
+    |-- package.json                          # 依赖及配置
+    |-- README.md                             # 简介
 
 ## 快速开始
 
